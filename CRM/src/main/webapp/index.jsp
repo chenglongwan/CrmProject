@@ -192,7 +192,7 @@ $('.change_Password').on('click', function(){
   $('#Exit_system').on('click', function(){
       layer.confirm('是否确定退出系统？', {
      btn: ['是','否'] ,//按钮
-	 icon:2,
+	 icon:0,
     }, 
 	function(){
 	  location.href="logout";
@@ -330,7 +330,7 @@ $('.change_Password').on('click', function(){
 						 <li class="home"><a  href="javascript:void(0)" name="sycompanyctlr/list.do" title="公司信息" class="iframeurl"><i class="icon-double-angle-right"></i>公司管理</a></li>
 						 <li class="home"><a href="javascript:void(0)" name="sysEmpuser/list.do" title="员工信息" class="iframeurl"><i class="icon-double-angle-right"></i>员工管理</a></li>
 						<li class="home"><a href="javascript:void(0)" name="syBranchctlr/tiao.do"  title="部门信息" class="iframeurl"><i class="icon-double-angle-right"></i>部门管理</a></li>
-						</ul>
+						</ul> 
 					</li>
 					<li>
 					<a href="#" class="dropdown-toggle"><i class="icon-picture "></i><span class="menu-text">仓库</span><b class="arrow icon-angle-down"></b></a>
@@ -338,22 +338,20 @@ $('.change_Password').on('click', function(){
 						<li class="home"><a href="javascript:void(0)" name="ccckxxctlr/ck.do" title="库存信息" class="iframeurl"><i class="icon-double-angle-right"></i>库存信息</a></li>
 						<li class="home"><a href="javascript:void(0)" name="ccspxxctlr/list.do" title="库存商品信息"  class="iframeurl"><i class="icon-double-angle-right"></i>库存商品信息</a></li>
 						<li class="home"><a href="javascript:void(0)" name="cgxqctlr/ck.do" title="采购详情"  class="iframeurl"><i class="icon-double-angle-right"></i>采购详情</a></li>
-						<li class="home"><a href="javascript:void(0)" name="ccspxxctlr/list.do" title="销售详情"  class="iframeurl"><i class="icon-double-angle-right"></i>销售详情</a></li>
+						<li class="home"><a href="javascript:void(0)" name="ccspxxctlr/xs.do" title="销售详情"  class="iframeurl"><i class="icon-double-angle-right"></i>销售详情</a></li>
 							</ul>
 						</li>
 					<li>
-					<a href="#" class="dropdown-toggle"><i class="icon-list"></i><span class="menu-text"> 余懿 </span><b class="arrow icon-angle-down"></b></a>
+					<a href="#" class="dropdown-toggle"><i class="icon-list"></i><span class="menu-text"> 销售订单 </span><b class="arrow icon-angle-down"></b></a>
                     <ul class="submenu">
-                    <li class="home"><a href="javascript:void(0)" name="salCtl/countSal" title="交易信息"  class="iframeurl"><i class="icon-double-angle-right"></i>交易信息</a></li>
                     <li class="home"><a href="javascript:void(0)" name="salCtl/salMessCtl" title="订单管理"  class="iframeurl"><i class="icon-double-angle-right"></i>订单管理</a></li>
-                    <li class="home"><a href="javascript:void(0)" name="Order_handling.html" title="订单处理"  class="iframeurl"><i class="icon-double-angle-right"></i>订单处理</a></li>
                    </ul>
 				  </li>
                   <li>
 					<a href="#" class="dropdown-toggle"><i class="icon-user"></i><span class="menu-text"> 客户管理 </span><b class="arrow icon-angle-down"></b></a>
                     <ul class="submenu">
                     <li class="home"><a href="javascript:void(0)" name="conctlr/custom.do" title="客户信息"  class="iframeurl"><i class="icon-double-angle-right"></i>客户信息</a></li>
-
+					<li class="home"><a href="javascript:void(0)" name="conctlr/lose.do" title="客户流失"  class="iframeurl"><i class="icon-double-angle-right"></i>客户流失</a></li>
                    </ul>
 				  </li>
 						<li><a href="#" class="dropdown-toggle"><i class="icon-edit"></i><span class="menu-text"> 万成龙</span><b class="arrow icon-angle-down"></b></a>
@@ -386,8 +384,7 @@ $('.change_Password').on('click', function(){
 								<li class="home"><a href="javascript:void(0)" name="usersctlr/getlist1.do" title="账户管理"  class="iframeurl"><i class="icon-double-angle-right"></i>账户管理</a></li>
 								<li class="home"><a href="javascript:void(0)" name="rolesctlr/getlist.do" title="角色管理"  class="iframeurl"><i class="icon-double-angle-right"></i>角色管理</a></li>
 								<li class="home"><a href="javascript:void(0)" name="permisctlr/getPermission.do" title="权限管理"  class="iframeurl"><i class="icon-double-angle-right"></i>权限管理</a></li>
-                   
-								  
+								<li class="home"><a href="javascript:void(0)" name="syslogctrl/showLOg" title="系统日志"  class="iframeurl"><i class="icon-double-angle-right"></i>系统日志</a></li>  
 							</ul>
 						</li>
 					</ul>
